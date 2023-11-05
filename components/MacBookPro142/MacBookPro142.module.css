@@ -1,0 +1,804 @@
+.root {
+  position: relative;
+  width: 1512px;
+  height: 2738px;
+  flex-direction: column;
+  align-items: flex-start;
+  outline: solid 1px #000;
+  background-color: #f5f5f4;
+  overflow: hidden;
+}
+.shockedNook1 {
+  position: absolute;
+  left: 1282px;
+  top: 1505px;
+  width: 161px;
+  height: 271px;
+  background-image:/* webpackIgnore: true */ url('/assets/shockedNook1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame20 {
+  position: absolute;
+  left: 0;
+  top: 860px;
+  width: 1512px;
+  height: 993px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffbd66;
+  overflow: hidden;
+}
+.frame22 {
+  position: absolute;
+  left: 255px;
+  top: 351px;
+  width: 501px;
+  height: 158px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 501px;
+  height: 157px;
+  border-radius: 20px;
+}
+.ellipse1 {
+  position: absolute;
+  left: 32px;
+  top: 59px;
+  width: 43px;
+  height: 43px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+._2 {
+  color: #f97316;
+  font-size: 30px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 57px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.pickAGame {
+  color: #000;
+  font-size: 28px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 15px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.chooseFromOurCuratedSetOfFunRu {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 61px;
+  width: 366px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame23 {
+  position: absolute;
+  left: 255px;
+  top: 525px;
+  width: 501px;
+  height: 179px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle22 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 501px;
+  height: 178px;
+  border-radius: 20px;
+}
+.ellipse12 {
+  position: absolute;
+  left: 32px;
+  top: 69px;
+  width: 43px;
+  height: 43px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+._3 {
+  color: #f97316;
+  font-size: 30px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 67px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.runTogether {
+  color: #000;
+  font-size: 28px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 15px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.ourGamesAreSpecificallyDesigne {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 61px;
+  width: 366px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame24 {
+  position: absolute;
+  left: 255px;
+  top: 720px;
+  width: 501px;
+  height: 179px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle23 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 501px;
+  height: 178px;
+  border-radius: 20px;
+}
+.ellipse13 {
+  position: absolute;
+  left: 32px;
+  top: 69px;
+  width: 43px;
+  height: 43px;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+._4 {
+  color: #f97316;
+  font-size: 30px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 44px;
+  top: 67px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.andTheWinnerIs {
+  color: #000;
+  font-size: 28px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 15px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.runSquadShowsASummaryOfYouAndY {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 61px;
+  width: 366px;
+  height: min-content;
+  flex-direction: column;
+}
+.shockedNook2 {
+  position: absolute;
+  left: 1389px;
+  top: 619px;
+  width: 177px;
+  height: 299px;
+  background-image:/* webpackIgnore: true */ url('/assets/shockedNook2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proudMia1 {
+  position: absolute;
+  left: 13px;
+  top: 230px;
+  width: 198px;
+  height: 156px;
+  background-image:/* webpackIgnore: true */ url('/assets/proudMia1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tiredAva1 {
+  position: absolute;
+  left: 1356px;
+  top: 161px;
+  width: 237px;
+  height: 250px;
+  background-image:/* webpackIgnore: true */ url('/assets/tiredAva1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.phone21 {
+  transform-origin: top left;
+  position: absolute;
+  left: 215.2265px;
+  top: 168.7829px;
+  width: 393px;
+  height: 556px;
+  background-image:/* webpackIgnore: true */ url('/assets/phone21.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: matrix(0.9869, -0.1612, 0.1612, 0.9869, 0, 0);
+}
+.sanaCheckingWatch1 {
+  position: absolute;
+  left: -79px;
+  top: 442px;
+  width: 294px;
+  height: 248px;
+  background-image:/* webpackIgnore: true */ url('/assets/sanaCheckingWatch1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.runningDoesNotNeedToBeBoring {
+  position: absolute;
+  left: 756px;
+  top: 259px;
+  width: 519px;
+  height: min-content;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 48px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #f97316;
+  font-size: 48px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #000;
+  font-size: 48px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.runSquadMakesRunningFunEngagin {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 756px;
+  top: 433px;
+  width: 430px;
+  height: 68px;
+  flex-direction: column;
+}
+.download_on_the_App_Store_Badg {
+  position: absolute;
+  left: 756px;
+  top: 531px;
+  width: 119.6641px;
+  height: 40px;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.googlePlayBadge1 {
+  position: absolute;
+  left: 880.6641px;
+  top: 521px;
+  width: 155px;
+  height: 60px;
+  background-image:/* webpackIgnore: true */ url('/assets/googlePlayBadge1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.howRunSquadWorks {
+  color: #000;
+  font-size: 40px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 256px;
+  top: 970px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame21 {
+  position: absolute;
+  left: 256px;
+  top: 1062px;
+  width: 501px;
+  height: 133px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle24 {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 501px;
+  height: 133px;
+  border-radius: 20px;
+  background-color: #fffc;
+}
+.ellipse14 {
+  position: absolute;
+  left: 32px;
+  top: 46px;
+  width: 43px;
+  height: 43px;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+._1 {
+  color: #fff;
+  font-size: 30px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 47px;
+  top: 44px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.inviteAFriend {
+  color: #000;
+  font-size: 28px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 15px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.inviteAFriendToRunSquadAndAddT {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 105px;
+  top: 61px;
+  width: 366px;
+  height: min-content;
+  flex-direction: column;
+}
+._64fb56740a89f0947124dd60_Chang {
+  position: absolute;
+  left: 877px;
+  top: 1015px;
+  width: 361px;
+  height: 747px;
+  background-image:/* webpackIgnore: true */ url('/assets/_64fb56740a89f0947124dd60_Chang.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.games {
+  color: #000;
+  font-size: 40px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 688px;
+  top: 1918px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame1 {
+  position: absolute;
+  left: 175px;
+  top: 2039px;
+  width: 347px;
+  height: 174px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle10 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 347px;
+  height: 169.8189px;
+  border-radius: 30px;
+  background-color: #fff9e4;
+}
+.duckDuckRun {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 31.841px;
+  width: 124px;
+  height: 20.166px;
+  flex-direction: column;
+}
+.goose {
+  position: absolute;
+  left: 242.8677px;
+  top: 31.841px;
+  width: 96.841px;
+  height: 142.159px;
+  background-image:/* webpackIgnore: true */ url('/assets/goose.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.runIntervalsWithABuddyWhileAWa {
+  color: #535353;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 62px;
+  width: 194px;
+  height: 11px;
+  flex-direction: column;
+}
+.rectangle11 {
+  position: absolute;
+  left: 30px;
+  top: 109px;
+  width: 51px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._15Min {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 39px;
+  top: 113px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle112 {
+  position: absolute;
+  left: 87px;
+  top: 109px;
+  width: 52px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._20Min {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 96.1765px;
+  top: 113px;
+  width: 34.6667px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle113 {
+  position: absolute;
+  left: 145px;
+  top: 109px;
+  width: 52px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._25Min {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 154.1765px;
+  top: 113px;
+  width: 34.6667px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame2 {
+  position: absolute;
+  left: 582px;
+  top: 2039px;
+  width: 347px;
+  height: 174px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle102 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 347px;
+  height: 174px;
+  border-radius: 30px;
+  background-color: #f2e4ff;
+}
+.fartleksWithKittens {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.runAFartlekWithABuddyWhileAWav {
+  color: #535353;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 62px;
+  width: 188px;
+  height: 11px;
+  flex-direction: column;
+}
+.rectangle114 {
+  position: absolute;
+  left: 30px;
+  top: 124px;
+  width: 51px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._15Min2 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 39px;
+  top: 128px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle115 {
+  position: absolute;
+  left: 87px;
+  top: 124px;
+  width: 52px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._20Min2 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 96.1765px;
+  top: 128px;
+  width: 34.6667px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle116 {
+  position: absolute;
+  left: 145px;
+  top: 124px;
+  width: 52px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #000;
+}
+._25Min2 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 154.1765px;
+  top: 128px;
+  width: 34.6667px;
+  height: min-content;
+  flex-direction: column;
+}
+.cat {
+  position: absolute;
+  left: 223.0836px;
+  top: 74px;
+  width: 144.4775px;
+  height: 84.4608px;
+  background-image:/* webpackIgnore: true */ url('/assets/cat.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.frame3 {
+  position: absolute;
+  left: 989px;
+  top: 2041px;
+  width: 347px;
+  height: 174px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle103 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 347px;
+  height: 174px;
+  border-radius: 30px;
+  background-color: #1d1d1d;
+}
+.moreGamesComingSoon {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 40.7813px;
+  width: 207px;
+  height: 25.8281px;
+  flex-direction: column;
+}
+.weAreConstantlyAddingNewGamesK {
+  color: #dbdbdb;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 72px;
+  width: 274px;
+  height: min-content;
+  flex-direction: column;
+}
+.frame25 {
+  position: absolute;
+  left: 0;
+  top: 2317px;
+  width: 1512px;
+  height: 421px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #d4f2ff;
+  overflow: hidden;
+}
+.haveFunStayFit {
+  color: #000;
+  font-size: 40px;
+  font-family: Paytone One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 582px;
+  top: 98px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.joinRunSquadWithAFriendAndStar {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 573px;
+  top: 185px;
+  width: 366px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.download_on_the_App_Store_Badg2 {
+  position: absolute;
+  left: 616px;
+  top: 274px;
+  width: 119.6641px;
+  height: 40px;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+}
+.googlePlayBadge12 {
+  position: absolute;
+  left: 740.6641px;
+  top: 264px;
+  width: 155px;
+  height: 60px;
+  background-image:/* webpackIgnore: true */ url('/assets/googlePlayBadge12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
