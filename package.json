@@ -1,7 +1,9 @@
 {
+  "main": "dist/index",
   "name": "vite-react-ts",
   "private": true,
   "version": "0.0.0",
+  "typings": "src/index",
   "scripts": {
     "start": "vite",
     "dev": "vite",
