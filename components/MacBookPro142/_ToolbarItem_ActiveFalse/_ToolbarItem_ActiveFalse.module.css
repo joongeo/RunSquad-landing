@@ -1,0 +1,31 @@
+.iconPlaceholder.iconPlaceholder {
+  left: 50%;
+  top: 11px;
+  transform: translateX(-50%);
+}
+.root {
+  opacity: 0.5;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+}
+.label {
+  color: #2d3648;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.01em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 9px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}

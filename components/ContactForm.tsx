@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
 import axios from 'axios';
+import { useState } from 'react';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 const ContactForm = () => {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
-    info: { error: false, msg: null },
+    info: { error: false, msg: '' },
   });
   const [inputs, setInputs] = useState({
     email: '',
     message: '',
   });
-  const handleServerResponse = (ok, msg) => {
+  const handleServerResponse = (ok: boolean, msg: string) => {
     if (ok) {
       setStatus({
         submitted: true,
@@ -28,11 +28,13 @@ const ContactForm = () => {
       // });
     } else {
       setStatus({
+        submitted: false,
+        submitting: false,
         info: { error: true, msg: msg },
       });
     }
   };
-  const handleOnChange = (e) => {
+  const handleOnChange = (e: { persist: () => void; target: { id: any; value: any; }; }) => {
     e.persist();
     setInputs((prev) => ({
       ...prev,
@@ -41,10 +43,10 @@ const ContactForm = () => {
     setStatus({
       submitted: false,
       submitting: false,
-      info: { error: false, msg: null },
+      info: { error: false, msg: '' },
     });
   };
-  const handleOnSubmit = (e) => {
+  const handleOnSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
@@ -63,7 +65,7 @@ const ContactForm = () => {
       });
   };
   return (
-    <main>
+    <main style={{display: 'flex', flexDirection: 'column'}}>
       <hr />
       <form onSubmit={handleOnSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         {/* <label htmlFor="email">Email</label> */}
@@ -110,7 +112,7 @@ const ContactForm = () => {
             style={{
               width: '100px', // Adjust width and height as per your requirement
               height: '40px',
-              backgroundColor: '#ccc', // Grey background color for the button
+              backgroundColor: '#1d1d1d', // Grey background color for the button
               color: 'white', // Text color
               border: 'none',
               borderRadius: '4px',

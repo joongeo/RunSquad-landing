@@ -1,0 +1,108 @@
+._ToolbarItem._ToolbarItem {
+  width: initial;
+  flex: 1;
+}
+.iconHome.iconHome {
+  left: calc(50% - 0.1667px);
+  top: 11px;
+  transform: translateX(-50%);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.label {
+  color: #1e293b;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.01em;
+  position: absolute;
+  left: 0;
+  right: 0.3333px;
+  bottom: 9px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+._ToolbarItem2._ToolbarItem2 {
+  width: initial;
+  flex: 1;
+}
+.iconShoppingBag.iconShoppingBag {
+  left: calc(50% - 0.1667px);
+  top: 11px;
+  transform: translateX(-50%);
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.label2 {
+  color: #1e293b;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.01em;
+  position: absolute;
+  left: 0;
+  right: 0.3333px;
+  bottom: 9px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+._ToolbarItem3._ToolbarItem3 {
+  width: initial;
+  flex: 1;
+}
+.iconUser.iconUser {
+  left: calc(50% - 0.1667px);
+  top: 11px;
+  transform: translateX(-50%);
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.label3 {
+  color: #1e293b;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.01em;
+  position: absolute;
+  left: 0;
+  right: 0.3333px;
+  bottom: 9px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.root {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 375px;
+  height: 80px;
+  flex-direction: column;
+  gap: 2px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.toolbarItems {
+  height: min-content;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0 8px;
+}

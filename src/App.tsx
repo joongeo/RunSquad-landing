@@ -1,5 +1,5 @@
-import { memo } from 'react';
 import type { FC } from 'react';
+import { memo } from 'react';
 
 // import resets from '../../../components/_resets.module.css';
 import resets from '../components/_resets.module.css';
