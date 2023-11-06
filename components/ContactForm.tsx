@@ -19,13 +19,13 @@ const ContactForm = () => {
         submitting: false,
         info: { error: false, msg: msg },
       });
-      // setInputs({
-      //   email: '',
-      //   message: '',
-      // });
       setInputs({
-        email: ''
+        email: '',
+        message: '',
       });
+      // setInputs({
+      //   email: ''
+      // });
     } else {
       setStatus({
         info: { error: true, msg: msg },
