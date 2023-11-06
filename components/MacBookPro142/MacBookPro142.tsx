@@ -8,7 +8,6 @@ import { memo } from "react";
 import type { FC } from "react";
 import classes from "./MacBookPro142.module.css";
 import resets from "../_resets.module.css";
-// @ts-ignore
 import ContactForm from '../ContactForm.tsx';
 interface Props {
     className?: string;
