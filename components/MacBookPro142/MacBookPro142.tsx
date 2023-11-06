@@ -1,6 +1,5 @@
 import type { FC } from "react";
 import { memo } from "react";
-import DDRScreen from "../../public/assets/duckduckrun_screen.png";
 import ContactForm from "../ContactForm";
 import resets from "../_resets.module.css";
 import { Download_on_the_app_store_badg } from "./Download_on_the_app_store_badg.js";
@@ -131,7 +130,7 @@ export const MacBookPro142: FC<Props> = memo(function MacBookPro142(
             </div>
           </div>
           <div className={classes.gameScreen}>
-            <img src={DDRScreen} />
+            <div className={classes.ddrscreen} />
           </div>
         </div>
         <div className={classes.proudMia1}></div>
