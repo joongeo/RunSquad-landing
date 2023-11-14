@@ -36,10 +36,14 @@ export const MacBookPro142: FC<Props> = memo(function MacBookPro142(
             </div>
             <ContactForm />
             <div className={classes.frame1}>
-              <div className={classes.download_on_the_App_Store_Badg}>
-                <Download_on_the_app_store_badg className={classes.icon2} />
-              </div>
-              <div className={classes.googlePlayBadge1}></div>
+              <a href="https://testflight.apple.com/join/c4k9Toqf" target="_blank" rel="noopener noreferrer">
+                <div className={classes.download_on_the_App_Store_Badg}>
+                  <Download_on_the_app_store_badg className={classes.icon2} />
+                </div>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.runstarter.development" target="_blank" rel="noopener noreferrer">
+                <div className={classes.googlePlayBadge1}></div>
+              </a>
             </div>
           </div>
         </div>
@@ -222,10 +226,14 @@ export const MacBookPro142: FC<Props> = memo(function MacBookPro142(
           </div>
           <div className={classes.group1}>
             <div className={classes.frame47}>
-              <div className={classes.download_on_the_App_Store_Badg2}>
-                <Download_on_the_app_store_badg2 className={classes.icon8} />
-              </div>
-              <div className={classes.googlePlayBadge12}></div>
+              <a href="https://testflight.apple.com/join/c4k9Toqf" target="_blank" rel="noopener noreferrer">
+                <div className={classes.download_on_the_App_Store_Badg2}>
+                    <Download_on_the_app_store_badg2 className={classes.icon8} />
+                </div>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.runstarter.development" target="_blank" rel="noopener noreferrer">
+                <div className={classes.googlePlayBadge12}></div>
+              </a>
             </div>
           </div>
         </div>
